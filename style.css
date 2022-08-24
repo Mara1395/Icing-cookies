@@ -1,0 +1,283 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+.logo-wrapper {
+    display: block;
+}
+
+.socialmedia-logo {
+    width: 26px;
+    height: 21px;
+    position: relative;
+    bottom: 90px;
+}
+
+.nav-link {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.order-btn {
+    background-color: #f9e7e7;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+/* section gradient image */
+
+.hero {
+    position: relative;
+    background: url(src/img/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 40%, rgba(9, 9, 121, 0) 87%);
+}
+
+
+.cover-title {
+    font-size: 72px;
+    color: #42495b;
+    position: relative;
+    z-index: 2;
+    margin-top: 90px;
+}
+
+.cover-text {
+    font-size: 23px;
+    color: #42495b;
+    position: relative;
+    z-index: 2;
+}
+
+/* section featured */
+
+.featured, .order, .subscribe, .satisfaction {
+    margin-top: 150px;   
+}
+
+.title-item {
+    font-size: 47px;
+    color: #42495b;
+}
+
+.title-line {
+    border-bottom: solid 1px #42495b;
+}
+
+.title-item-pink {
+    color: #c19c9c;
+}
+
+.featured-square {
+    display: flex;
+    width: 100%;
+}
+
+.pink-square {
+    background-color: #f9e7e7;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.size-square-text {
+    font-size: 24px;
+    color: #42495b;
+}
+
+.btn-outline {
+    font-size: 24px;
+    border: solid 1px #42495b;
+    padding: 15px 45px;
+    text-decoration: none;
+    color: #42495b;
+}
+
+.btn-outline:hover {
+     color: #c19c9c;
+}
+
+.featured-line {
+    border-top: solid 2px #42495b;
+    border-bottom: solid 2px #42495b;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+
+/* order cookies section */
+
+.order-box {
+    background-color: #f9e7e7;
+}
+
+.order-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title-form {
+    font-size: 47px;
+}
+
+.order-form-style {
+    margin-bottom: 15px;
+    border-radius: 0;
+    border: solid 1px #FFFFFF;
+}
+
+.userBtn {
+    background:url(src/img/user-solid.svg) left no-repeat;
+    padding-left: 40px;
+    background-color: #FFFFFF;
+    background-size: 18px;
+    }
+
+.btn-dark:hover {
+        background-color: #c19c9c;
+        border: 0;
+}
+
+.radius-item {
+    border-radius: 0;
+}
+
+/* subscribe section */
+.envelopeBtn {
+    background:url(src/img/envelope-solid.svg) left no-repeat;
+    background-size: 31px 25px;
+    padding-left: 50px; 
+}
+
+.subscribe-btn {
+    background-color: #f9e7e7;
+    border: 0;
+    color: #000000;
+    font-size: 22px;
+}
+
+.subscribe-btn:hover {
+    background-color: #c19c9c;
+}
+
+
+
+/* client satisfaction */
+
+.box-message {
+    background-color: #FFFFFF;
+}
+
+.box-message-shadow {
+    padding: 20px;
+  box-shadow: inset 0 -3em 3em rgba(0,0,0,0.02),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.carousel-control-prev-icon {
+    background-image : url(src/img/arrow-left-long-solid.svg);
+    background-size: 20px 17px;
+    position: absolute;
+    right: 250px;
+}
+   
+.carousel-control-next-icon {
+    background-image : url(src/img/arrow-right-solid.svg);
+    background-size: 20px 17px;
+    position: absolute;
+    left: 250px;
+}
+
+.box-message-text {
+    font-size: 17px;
+}
+
+.box-message-name {
+    font-size: 15px;
+}
+
+.satisfaction {
+    margin-bottom: 130px;
+}
+
+/* footer */ 
+
+footer {
+    background-color: #f9e7e7;
+}
+
+.footer-title {
+    color: #c19c9c;
+    font-size: 20px;
+    border-bottom: solid 1px #000000;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #42495b;
+}
+
+.footer-link:hover {
+    color: #c19c9c;
+}
+
+.unstyle {
+    list-style: none;
+    padding-left: 0;
+}
+
+.logo-copyright {
+    width: 22px;
+    height: 22px; 
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.featured-item-text {
+    position: absolute;
+}
+
+.featured-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
